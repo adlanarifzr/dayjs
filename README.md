@@ -8,13 +8,13 @@ English | [简体中文](./docs/zh-cn/README.zh-CN.md) | [日本語](./docs/ja/R
     <a href="https://unpkg.com/dayjs/dayjs.min.js"><img
             src="https://img.badgesize.io/https://unpkg.com/dayjs/dayjs.min.js?compression=gzip&style=flat-square"
             alt="Gzip Size"></a>
-    <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
+    <a href="https://www.npmjs.com/package/@adlanarifzr/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/adlanarifzr/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/adlanarifzr/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/adlanarifzr/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/adlanarifzr/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/adlanarifzr/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -46,7 +46,7 @@ You can find more details, API, and other docs on [day.js.org](https://day.js.or
 ### Installation
 
 ```console
-npm install dayjs --save
+npm install @adlanarifzr/dayjs --save
 ```
 
 📚[Installation Guide](https://day.js.org/docs/en/installation/installation)
@@ -109,7 +109,7 @@ dayjs().format('Q Do k kk X x') // more available formats
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
 
-[[Become a sponsor via Github](https://github.com/sponsors/iamkun/)] [[Become a sponsor via OpenCollective](https://opencollective.com/dayjs#sponsor)]
+[[Become a sponsor via Github](https://github.com/sponsors/adlanarifzr/)] [[Become a sponsor via OpenCollective](https://opencollective.com/dayjs#sponsor)]
 
 <a href="https://toyokumo.co.jp" target="_blank">
   <img width="70" src="https://user-images.githubusercontent.com/17680888/197092231-2367b5eb-1e43-467e-a311-23f7cd97b086.png">
