@@ -1,6 +1,6 @@
 {
   "name": "@adlanarifzr/dayjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
   "main": "./dayjs.min.js",
   "module": "./esm/index.js",
@@ -8,33 +8,27 @@
   "exports": {
     ".": {
       "import": "./esm/index.js",
-      "require": "./dayjs.min.js",
-      "types": "./index.d.ts"
+      "require": "./dayjs.min.js"
     },
     "./esm": {
       "import": "./esm/index.js",
-      "require": null,
-      "types": "./esm/index.d.ts"
+      "require": null
     },
     "./plugin/*": {
       "import": null,
-      "require": "./plugin/*.js",
-      "types": "./plugin/*.d.ts"
+      "require": "./plugin/*.js"
     },
     "./esm/plugin/*": {
       "import": "./esm/plugin/*/index.js",
-      "require": null,
-      "types": "./esm/plugin/*/index.d.ts"
+      "require": null
     },
     "./locale/*": {
       "import": null,
-      "require": "./locale/*.js",
-      "types": "./locale/index.d.ts"
+      "require": "./locale/*.js"
     },
     "./esm/locale/*": {
       "import": "./esm/locale/*.js",
-      "require": null,
-      "types": "./esm/locale/index.d.ts"
+      "require": null
     }
   },
   "scripts": {
