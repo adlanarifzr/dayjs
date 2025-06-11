@@ -1,13 +1,13 @@
 {
   "name": "@adlanarifzr/dayjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
   "main": "./dayjs.min.js",
   "module": "./esm/index.js",
   "types": "./index.d.ts",
   "exports": {
     ".": {
-      "import": null,
+      "import": "./esm/index.js",
       "require": "./dayjs.min.js",
       "types": "./index.d.ts"
     },
