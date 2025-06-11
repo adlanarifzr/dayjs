@@ -39,6 +39,9 @@
     "import/extensions": [
       2,
       "never"
+    ],
+    "no-constructor-return": [
+      0
     ]
   }
 }

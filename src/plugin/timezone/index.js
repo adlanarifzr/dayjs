@@ -40,10 +40,10 @@ const getDateTimeFormat = (timezone, options = {}) => {
 const localeStringifierCache = {}
 const getLocaleStringifier = (timezone) => {
   let localeStringifier = localeStringifierCache[timezone]
-  if(!localeStringifier) {
+  if (!localeStringifier) {
     localeStringifier = new Intl.DateTimeFormat('en-US', {
       ...dateTimeFormatDefaults,
-      timeZone: timezone,
+      timeZone: timezone
     })
     localeStringifierCache[timezone] = localeStringifier
   }
@@ -109,6 +109,7 @@ export default (o, c, d) => {
 
   const proto = c.prototype
 
+  // eslint-disable-next-line default-param-last
   proto.tz = function (timezone = defaultTimezone, keepLocalTime) {
     const oldOffset = this.utcOffset()
     const date = this.toDate()
@@ -134,7 +135,7 @@ export default (o, c, d) => {
   proto.offsetName = function (type) {
     // type: short(default) / long
     const zone = this.$x.$timezone || d.tz.guess()
-    const result = makeFormatParts(this.valueOf(), zone, { timeZoneName: type }).find(m => m.type.toLowerCase() === 'timezonename')
+    const result = makeFormatParts(this.valueOf(), zone, { timeZoneName: type }).find((m) => m.type.toLowerCase() === 'timezonename')
     return result && result.value
   }
 

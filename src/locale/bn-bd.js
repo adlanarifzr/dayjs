@@ -36,10 +36,10 @@ const locale = {
   weekdaysMin: 'রবি_সোম_মঙ্গ_বুধ_বৃহঃ_শুক্র_শনি'.split('_'),
   weekStart: 0,
   preparse(string) {
-    return string.replace(/[১২৩৪৫৬৭৮৯০]/g, match => numberMap[match])
+    return string.replace(/[১২৩৪৫৬৭৮৯০]/g, (match) => numberMap[match])
   },
   postformat(string) {
-    return string.replace(/\d/g, match => symbolMap[match])
+    return string.replace(/\d/g, (match) => symbolMap[match])
   },
   ordinal: (n) => {
     const s = ['ই', 'লা', 'রা', 'ঠা', 'শে']
@@ -54,9 +54,9 @@ const locale = {
     LLL: 'D MMMM YYYY খ্রিস্টাব্দ, A h:mm সময়',
     LLLL: 'dddd, D MMMM YYYY খ্রিস্টাব্দ, A h:mm সময়'
   },
-  meridiem: hour =>
+  meridiem: (hour) =>
   /* eslint-disable no-nested-ternary */
-    (hour < 4
+    (hour < 4 // eslint-disable-line implicit-arrow-linebreak
       ? 'রাত'
       : hour < 6
         ? 'ভোর'
