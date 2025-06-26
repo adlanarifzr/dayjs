@@ -1,5 +1,5 @@
-import { PluginFunc } from 'dayjs'
-import { OpUnitType, UnitTypeLongPlural } from 'dayjs';
+import { PluginFunc } from '@adlanarifzr/dayjs'
+import { OpUnitType, UnitTypeLongPlural } from '@adlanarifzr/dayjs';
 
 declare const plugin: PluginFunc
 export as namespace plugin;
@@ -74,7 +74,7 @@ declare namespace plugin {
   }
 }
 
-declare module 'dayjs' {
+declare module '@adlanarifzr/dayjs' {
   interface Dayjs {
     add(duration: plugin.Duration): Dayjs
     subtract(duration: plugin.Duration): Dayjs

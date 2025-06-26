@@ -1,5 +1,5 @@
 // Punjabi (India) [pa-in]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'pa-in',

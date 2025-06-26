@@ -1,9 +1,9 @@
-import { PluginFunc, ConfigType, OptionType } from 'dayjs'
+import { PluginFunc, ConfigType, OptionType } from '@adlanarifzr/dayjs'
 
 declare const plugin: PluginFunc
 export = plugin
 
-declare module 'dayjs' {
+declare module '@adlanarifzr/dayjs' {
   interface Dayjs {
 
     utc(keepLocalTime?: boolean): Dayjs

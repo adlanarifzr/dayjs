@@ -1,5 +1,5 @@
 // Uzbek [uz]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'uz',

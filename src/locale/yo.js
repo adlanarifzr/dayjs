@@ -1,5 +1,5 @@
 // Yoruba Nigeria [yo]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'yo',

@@ -1,5 +1,5 @@
 // Maltese (Malta) [mt]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'mt',

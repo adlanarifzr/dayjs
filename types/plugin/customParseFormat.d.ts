@@ -1,4 +1,4 @@
-import { PluginFunc } from 'dayjs'
+import { PluginFunc } from '@adlanarifzr/dayjs'
 
 declare interface PluginOptions {
     parseTwoDigitYear?: (yearString: string) => number

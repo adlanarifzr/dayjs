@@ -771,7 +771,7 @@
 * Add LocalizedFormat plugin supplying format like LTS, LT, LLLL 
 
 * <del>update declaration File with default export (#278)</del>
-> <del>From v1.8.1, in TypeScript Project, just `import from dayjs from 'dayjs'`</del>
+> <del>From v1.8.1, in TypeScript Project, just `import from dayjs from '@adlanarifzr/dayjs'`</del>
 * add ES2015 module support (#451)
 
 ### Performance Improvements

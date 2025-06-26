@@ -1,5 +1,5 @@
 // Italian (Switzerland) [it-ch]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'it-ch',

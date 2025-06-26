@@ -1,5 +1,5 @@
 // Chuvash [cv]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'cv',

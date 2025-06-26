@@ -1,5 +1,5 @@
 // English (India) [en-in]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'en-in',

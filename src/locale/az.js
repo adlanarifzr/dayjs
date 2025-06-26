@@ -1,5 +1,5 @@
 // Azerbaijani [az]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'az',

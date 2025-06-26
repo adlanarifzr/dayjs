@@ -1,5 +1,5 @@
 // Malayalam [ml]
-import dayjs from 'dayjs'
+import dayjs from '@adlanarifzr/dayjs'
 
 const locale = {
   name: 'ml',
